@@ -5,8 +5,9 @@ This is a combination of all the famous CSS normalize and CSS resets to make the
 All the necessary code is in the [best-normalize.css](/best-normalize.css) file.
 
 Todo:
-[] Add tests
-[] Check missing decelerations
+
+- [ ] Add tests
+- [ ] Check missing decelerations
 
 Sources used to make this project:
 
