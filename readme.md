@@ -12,8 +12,8 @@ Todo:
 Sources used to make this project:
 
 - [Normalize CSS](https://github.com/necolas/normalize.css)
-- [Modern normalize](https://github.com/necolas/normalize.css)
-- [Sanitize CSS](https://github.com/sindresorhus/modern-normalize)
+- [Modern normalize](https://github.com/sindresorhus/modern-normalize)
+- [Sanitize CSS](https://github.com/csstools/sanitize.css)
 
 Any contribution would be appreciated.
 
