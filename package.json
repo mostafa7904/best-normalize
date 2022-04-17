@@ -1,31 +1,31 @@
 {
-	"name": "modern-normalize",
+	"name": "best-normalize",
 	"version": "1.1.0",
 	"description": "Normalize browsers' default style",
 	"license": "MIT",
-	"repository": "sindresorhus/modern-normalize",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "mostafa7904/best-normalize",
+	"funding": "https://github.com/sponsors/mostafa7904",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Mostafa Rahmati",
+		"email": "mostafa7904@gmail.com",
+		"url": "https://mostafa-rahmati.ir"
 	},
-	"main": "modern-normalize.css",
-	"style": "modern-normalize.css",
+	"main": "best-normalize.css",
+	"style": "best-normalize.css",
 	"engines": {
 		"node": ">=6"
 	},
 	"scripts": {
 		"test": "npm run test:stylelint",
 		"test:all": "npm run test:stylelint && npm run test:chrome && npm run test:firefox && npm run test:safari",
-		"test:stylelint": "stylelint modern-normalize.css",
+		"test:stylelint": "stylelint best-normalize.css",
 		"test:chrome": "testcafe chrome:headless test/acceptance/chrome --app \"http-server . --silent\"",
 		"test:firefox": "testcafe firefox:headless test/acceptance/firefox --app \"http-server . --silent\"",
 		"test:safari": "testcafe safari test/acceptance/safari --app \"http-server . --silent\"",
-		"version": "replace-in-files --regex='v\\d+\\.\\d+\\.\\d+' --replacement=v$npm_package_version modern-normalize.css && git add ."
+		"version": "replace-in-files --regex='v\\d+\\.\\d+\\.\\d+' --replacement=v$npm_package_version best-normalize.css && git add ."
 	},
 	"files": [
-		"modern-normalize.css"
+		"best-normalize.css"
 	],
 	"keywords": [
 		"normalize",
