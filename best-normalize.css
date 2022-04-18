@@ -168,6 +168,13 @@ textarea {
 }
 
 /**
+Change the resize direction in all browsers (opinionated).
+*/
+textarea {
+	resize: vertical;
+}
+
+/**
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
@@ -307,10 +314,6 @@ Change the fill color to match the text color in all browsers (opinionated).
 
 svg:not([fill]) {
 	fill: currentColor;
-}
-
-textarea {
-	resize: vertical;
 }
 
 /*
