@@ -298,6 +298,22 @@ Remove the inner padding in Chrome and Safari on macOS.
 }
 
 /*
+SVG
+===========
+*/
+/**
+Change the fill color to match the text color in all browsers (opinionated).
+*/
+
+svg:not([fill]) {
+	fill: currentColor;
+}
+
+textarea {
+	resize: vertical;
+}
+
+/*
 Interactive
 ===========
 */
